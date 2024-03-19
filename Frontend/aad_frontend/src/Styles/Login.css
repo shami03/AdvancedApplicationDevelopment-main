@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#login-body {
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-top: 69px;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  flex-direction: column; 
+  align-items: center;
+}
+
+#login-body h2,#login-body h3,#login-body a {
+  color: rgb(55, 63, 71);
+}
+
+#login-body h2 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+#login-body h3 {
+  margin-bottom: 10px;
+}
+
+#login-body .login-container h3 {
+  margin-right: 10px;
+  text-align: center;
+  font-size: small;
+}
+
+#login-body h3, #login-body a {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#login-body a {
+  text-decoration: none;
+  margin: 5px 0;
+  display: block;
+}
+
+#login-body button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(46, 145, 252);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 20px 0;
+  transition: .3s ease all;
+}
+
+#login-body button:hover {
+  cursor: pointer;
+  background-color: rgb(46, 108, 252);
+}
+
+
+
+#login-body .login-container .login-outer-container {
+  min-width: 400px;
+  min-height: 500px;
+  margin-top: 70px;
+  text-align: center;
+  background: rgb(247, 248, 249);
+  border-radius: 13px;
+  margin-right: 10%;
+  display: flex;
+}
+
+.login-outer-container {
+  min-width: 400px;
+  min-height: 400px;
+  text-align: center;
+  background: rgb(247, 248, 249);
+  border-radius: 13px;
+  margin-top: 60px;
+  
+}
+
+.login-content-container {
+  width: 70%;
+  height: 100%;
+}
+
+.login-content-container > img {
+  width: 30%;
+  height: 110px;
+  margin-top: 10px;
+}
+
+.login-container h4 {
+  padding-top: 6px;
+}
+.logo{
+  border-radius: 50%;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  background: rgb(247, 248, 249);
+}
+
+#log {
+  margin-left: 160px;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+
+
+.error {
+  font-size: x-small;
+  color: red;
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+#login-body .register-link {
+  color: rgb(38, 0, 255);
+  padding-top: 2px;
+  font-size: small;
+}
+.check-text{
+  font-size: x-small;
+
+}
+@media screen and (max-width: 750px) {
+  .login-outer-container {
+    box-shadow: 5px 3px 20px -3px #999999;
+    height: 525px;
+  }
+
+  .ins-register .login-outer-container, .student-reg .login-outer-container {
+    box-shadow: 5px 3px 20px -3px #999999;
+  }
+
+  .login-container,.login-content-container,.login-outer-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+  }
+}
+
+
+@media screen and (min-width: 750px) {
+  form {
+    width: 70%;
+    margin: auto;
+  }
+  .login-outer-container {
+    box-shadow: 5px 3px 20px -3px #999999;
+    height: 525px;
+  }
+
+  .ins-register .login-outer-container, .student-reg .login-outer-container {
+    box-shadow: 5px 3px 20px -3px #999999;
+  }
+
+  .login-outer-container {
+    width: 800px;
+    display: flex;
+  }
+
+  .login-content-container {
+    width: 50%;
+  }
+
+  .login-container .login-image-container {
+    border-radius: 10px;
+    width: 50%;
+    background: bottom / 100% url('https://www.shutterstock.com/image-vector/financial-investments-money-savings-concept-600nw-2042511212.jpg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    margin-bottom: 60px;
+  }
+}

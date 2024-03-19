@@ -1,0 +1,101 @@
+.sidebar {
+    position: fixed;
+    max-width: 190px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    min-height: 95vh;
+    max-height: auto;
+    border-right: 2px solid #ccc;
+    transition: width 0.3s ease;
+    
+  }
+
+  .sidebar.open {
+    width: 260px;
+  }
+  .logo-close{
+    min-width: 50px;
+  }
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+  }
+  .logo-close:hover{
+    cursor: pointer;
+  }
+  .toggle-button {
+    cursor: pointer;
+    margin-left: auto; 
+  }
+  
+  .menu-container {
+    overflow: hidden;
+    padding-top: 90px;
+    transition: padding-top 0.4s ease;
+
+  }
+  
+  .menu-container.close{
+    overflow: hidden;
+    padding-top: 70px;
+    transition: padding-top 0.4s ease;
+
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .sidebar-menu li {
+    margin-bottom: 15px;
+    padding: 9px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
+  }
+  
+  .sidebar-menu li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+  
+  .sidebar-menu li a.selected {
+      color: #007bff;
+    }
+   
+    .sidebar-menu li a:hover {
+        color: blue;
+  }
+  
+  .logo h5 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    margin-top: 10px;
+  }
+  .logo-div{
+    display: flex;
+  }
+  .sidebar .logo img {
+    display: block;
+    margin: 10px auto;
+    width: 34%;
+    height: 40px;
+  }
+  
+ 
+  

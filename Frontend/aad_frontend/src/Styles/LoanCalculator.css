@@ -1,0 +1,99 @@
+.loan-calculator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 70px;
+  max-width: 1200px;
+}
+
+.calculator-container {
+  flex: 1;
+  margin-top: 0px;
+  padding-right: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.summary-container {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.summary-container h3 {
+  padding-bottom: 10px;
+}
+
+.summary-container p {
+  padding-bottom: 15px;
+}
+
+h2 {
+  margin-top: 0;
+}
+.calc h2{
+  padding-top: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+.summary h3 {
+  margin-top: 0;
+}
+
+.summary p {
+  margin-bottom: 10px;
+}
+
+.chart-container {
+  width: 50%; 
+  margin-top: 0px;
+}
+
+.chart {
+  width: 100%;
+  max-height: 400px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calc {
+  padding: 20px;
+  margin-top: 120px;
+  margin-left: 150px;
+  padding-right: 20px;
+  max-width: 1220px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(81, 81, 81)
+
+}
+
+.calc h2 {
+  text-transform: uppercase;
+  font-size: large;
+}
+
+

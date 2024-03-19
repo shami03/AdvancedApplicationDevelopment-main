@@ -1,0 +1,96 @@
+/* Loans.css */
+
+.loans-container {
+    display: flex;
+    margin-top: 70px;
+    transition: margin-left 0.3s ease; 
+
+  }
+  
+  .loans-content {
+    margin-left: 190px;
+    flex: 1;
+    padding: 20px;
+    transition: margin-left 0.3s ease; 
+
+  }
+  
+  .loans-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .application-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .application-table th,
+  .application-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .application-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .application-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .application-table tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .view-button {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .view-button:hover {
+    background-color: #45a049;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .new-application-button,
+  .loan-types-button,
+  .loan-requirements-button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .new-application-button:hover,
+  .loan-types-button:hover,
+  .loan-requirements-button:hover {
+    background-color: #0056b3;
+  }
+  .sidebar.open {
+    width: 260px;
+  }
+  
+  .sidebar.close {
+    width: 100px; 
+  }
+  
+ 
+  .sidebar.close+.loans-content{
+margin-left: 110px;
+  }
+  .sidebar.open + .loans-content {
+    margin-left: 210px; 
+  }

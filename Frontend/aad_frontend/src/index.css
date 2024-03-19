@@ -1,0 +1,12 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+ 
+}
+.landing-page,#login-body {
+  background-image: url('https://alternativecreditinvestor.com/wp-content/uploads/2020/12/AdobeStock_319204939-scaled.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(3px); /* Adjust the blur amount as needed */
+}
+

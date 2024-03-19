@@ -1,0 +1,36 @@
+  .loan-explorer-container {
+      margin: 20px;
+      margin-left: 0px;
+      transition: margin-left 0.3s ease; 
+
+    }
+    
+    .loan-explorer-container h1 {
+      text-align: center;
+    }
+    
+    .MuiTableContainer-root {
+      margin-top: 20px;
+    }
+    
+    .MuiTableCell-head {
+      font-weight: bold;
+    }
+    
+    .MuiTableRow-root:nth-of-type(odd) {
+      background-color: #f2f2f2;
+    }
+    
+    .MuiTablePagination-root {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+   
+    .sidebar.close+.loan-explorer-container{
+  margin-left: 110px;
+    }
+    .sidebar.open + .loan-explorer-container {
+      margin-left: 210px; 
+    }
+    

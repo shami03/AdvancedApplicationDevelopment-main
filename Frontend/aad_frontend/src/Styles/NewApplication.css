@@ -1,0 +1,87 @@
+.form-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .new-form{
+    padding: 40px;
+    padding-top:10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-bottom: 0px;
+  }
+  .new-application{
+    margin-top: 70px;
+  }
+  .new-app{
+    transition: margin-left 0.3s ease; 
+    margin-left: 170px;
+
+  }
+  .new-application h1 {
+    font-size: large;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  
+  .form-container input[type='text'],
+  .form-container input[type='email'],
+  .form-container input[type='tel'],
+  .form-container input[type='number'],
+  .new-application select,
+  .form-container textarea {
+    min-width: 200px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .new-application button[type='submit'] {
+    text-align: center;
+    width: 50%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .new-application button[type='submit']:hover {
+    background-color: #45a049;
+  }
+  .new-application table td{
+    font-size: small;
+  }
+  .new-application h2 {
+    margin-top: 20px;
+    font-size: large;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .column {
+    width: 48%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .sidebar.close+.new-app{
+    margin-left: 110px;
+      }
+      .sidebar.open + .new-app {
+        margin-left: 210px; 
+      }
